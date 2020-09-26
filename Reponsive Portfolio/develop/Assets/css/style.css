@@ -1,0 +1,55 @@
+/* set background image and size on all pages*/
+body {
+
+    background-image: url("../Images/backgroundimage.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(223, 111, 70);
+}
+
+/*customizing navbar text and background color on all pages*/
+.navbar-custom {
+    background-color:rgb(95, 91, 85);
+}
+
+.navbar-custom a {
+    color: lightgrey;
+    border-style: solid:
+    border-color: black;
+    border-width: 2px;
+}
+
+/*container on all pages*/
+.container {
+    background-color: darkgray;
+    padding-bottom: 1em;
+    margin-top: 2em;
+    border-radius: 2ex;
+}
+/*h3 properties inside container on all pages*/
+h3 {
+    padding-left: 10px;
+    text-align: center;
+}
+
+/*button only on contact me form*/
+.btn {
+    background-color: coral;
+    color: black;
+    border-color: black;
+}
+
+/*sticky footer on all pages*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(95, 91, 85);
+    color: lightgrey;
+    text-align: center;
+  ] 

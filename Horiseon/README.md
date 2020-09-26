@@ -19,6 +19,7 @@
 3. In the CSS, combining styles and elements appropria tely to reduce cluttering the css with duplicate code
 
 ## The website is being hosted on github pages.
+https://kellys-tech.github.io/
 
 ## Website Images:
 
