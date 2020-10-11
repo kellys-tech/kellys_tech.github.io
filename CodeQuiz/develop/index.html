@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" type="text/css" href="../assets/styles.css">
+</head>
+
+<body>
+    <!--homepage with instructions and start quiz button-->
+    <section class="container" id="homepage">
+        <h1>JavaScript Coding Quiz</h1>
+        <p>Try to answer the following code-related questions within the time limit.<br>Keep in mind that incorrect answers will penalize your score/time by 10 seconds!</p>
+        <button id="start" type="button" class="btn btn-large">Start Quiz</button>
+    </section>
+     <!--question and answers-->
+    <section class="card" id="questCard">
+        <p id="quest"></p>
+    <div>
+        <button id="userinput1" type="button" value="A" name="choices"></button>
+        <button id="userinput2" type="button" value="B" name="choices"></button>
+        <button id="userinput3" type="button" value="C" name="choices"></button>
+        <button id="userinput4" type="button" value="D" name="choices"></button>
+    </div>
+    </section>
+     <!--score page-->
+    <section class="submission" id="submitForm">
+        <h1>Completed!</h1>
+        <p>Your final score is: </p>
+        <input type="text" id="initialField">
+        <label for="initials">Enter your initials </label>
+        <button class="btn" id="submitQuiz"><span id="submit"></span>Submit Quiz</button>
+        </div>
+    </section>
+     <!--highscores-->
+    <section class="scores" id="scoreList">
+        <h1>Scores</h1>
+        <p></p>
+        <button class="btn" id="back"><span id="goBack"></span>Go Back</button>
+        <div class="highScore" id="userScore"></div>
+        <button class="btn" id="clear"><span id="clear"></span>Clear Highscores</button>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
